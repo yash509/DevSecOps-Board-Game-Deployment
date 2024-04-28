@@ -17,7 +17,7 @@ spec:
           image: yash5090/boardgame:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080 # The port that the container is running on in the cluster
+            - containerPort: 5000 # The port that the container is running on in the cluster
 
 
 ---
